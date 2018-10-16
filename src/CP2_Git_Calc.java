@@ -11,26 +11,22 @@ public class CP2_Git_Calc {
 }
 
 class Calc {
-	public int add(double a, double b) {
-		int c=(int)(a+b);
-		return c;
+	public double add(double a, double b) {
+		return a+b;
 	}
 	
 	public int sub(double a, double b) {
-		int c=(int)(a-b);
-		return -c;
+		
+		return -1;
 	}
 	
 	public int mul(double a, double b) {
-		int c=(int)(a*b);
-		return c;
+	
+		return -1;
 	}
 	
 	public int div(double a, double b) {
-		if(b==0) {
-			return 0;}
-	else {int c=(int)(a/b);
-		return c;
+		return -1;
 	}
 	}
 }
