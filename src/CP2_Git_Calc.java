@@ -25,7 +25,10 @@ class Calc {
 		return a*b;
 	}
 	
-	public int div(double a, double b) {
-		return -1;
+	public double div(double a, double b) {
+		if(b==0)
+			return 0;
+		else return a/b;
+		
 	}
 	}
