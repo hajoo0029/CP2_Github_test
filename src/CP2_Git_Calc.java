@@ -29,4 +29,3 @@ class Calc {
 		return -1;
 	}
 	}
-}
